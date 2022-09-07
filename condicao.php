@@ -17,6 +17,17 @@
              ?>
              <p>
              Sua média é <?php echo $media; ?></p>
+             <p>Sua situação é :
+                 <?php 
+                 if($media >= 6.0){
+                     echo "Aprovado!!!";
+                 }
+                 else if($media >= 2.0){
+                     echo "  Recuperação.";
+                 }
+                 
+                 ?>
+             </p>
     </div>
 
     
