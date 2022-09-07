@@ -1,0 +1,10 @@
+h1
+{
+   background: black; color: antiquewhite;
+}
+div{
+    background:black;
+    color: azure;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
